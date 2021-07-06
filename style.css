@@ -3,7 +3,7 @@ body{
     margin:0;
 }
 h1{
-    font-weight:50px;
+    font-weight:60px;
 }
 .top-banner{
     background-image:url(images/Frame\ 58.jpg);
@@ -13,7 +13,7 @@ h1{
 .about-me-banner{
     background-image:url(images/7.png);
     background-repeat:no-repeat;
-    background-position:left;
+    background-position:right;
 }
 .flexible-container{
     display:flex;
@@ -23,8 +23,17 @@ h1{
     padding-left:20px
 
 }
-.half-width img{
-    width:80%;
+.about-me{
+    color:orangered
+}
+.half-width p{
+    text-align: justify;
+}
+.model{
+    width:70%;
+}
+.person{
+    width:50%;
 }
 .link-button{
     text-decoration:none;
@@ -36,3 +45,33 @@ h1{
 .orange-red{
     color:white;
 }
+.recipei{
+    text-align:center;
+}
+.recipei h1{
+    color:orangered;
+}
+
+.recipie-item{
+   width:20%;
+   margin-left:5%;
+   margin-right:5%;
+   box-shadow:10px 10px 10px gray; 
+   border-radius:10px;
+}
+.recipie-item img{
+    width:70%;
+    border-radius:10px;
+    
+}
+footer{
+    height:20%;
+    text-align:center;
+    padding-top:20px;
+    background-color:orangered;
+}
+section{
+    margin-bottom:40px;
+}
+
+
